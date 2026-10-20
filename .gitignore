@@ -1,0 +1,9 @@
+@"
+__pycache__/
+venv/
+.venv/
+*.pyc
+*.db
+tomato_disease_cnn.pth
+.env
+"@ | Set-Content -Path .gitignore
